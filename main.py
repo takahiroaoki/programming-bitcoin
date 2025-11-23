@@ -1,5 +1,9 @@
+from field_element import FieldElement
+
 def main():
-    print("Hello from programming-bitcoin!")
+    a = FieldElement(7, 19)
+    b = FieldElement(5, 19)
+    print(a/b)
 
 
 if __name__ == "__main__":
