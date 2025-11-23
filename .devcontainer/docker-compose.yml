@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspaces/programming-bitcoin
+    working_dir: /workspaces/programming-bitcoin
+    tty: true
